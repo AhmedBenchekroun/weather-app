@@ -4,9 +4,11 @@ import React from "react";
 class Form extends React.Component {
     render() {
         return (
-            <div>
-                <p>Form Component</p>
-            </div>
+            <form>
+                <input type="text" name="City" placeholder="City"/>
+                <input type="text" name="Country" placeholder="Country"/>
+                <button>Get Weather</button>
+            </form>
         )
     }
 }
